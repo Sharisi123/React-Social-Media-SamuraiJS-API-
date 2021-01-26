@@ -1,0 +1,48 @@
+.nav {
+    grid-area: n;
+    background-color: #FECD1A;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.6);
+  }
+
+.nav ul {
+    /* margin: 0 a; */
+    justify-content: center;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav ul li {
+    list-style-type: none;
+    line-height: 35px;
+}
+
+.nav ul li a {
+    color: rgb(19, 20, 4);
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 5px;
+    
+}
+
+.nav ul li a:hover {
+    color: rgb(200, 67, 67); 
+}
+
+.nav ul li a.active {
+    color: red
+}
+
+.navFriends {
+    padding: 20px;
+    content: '';
+}
+
+.friendAva {
+    width: 30px;
+    height: 30px;
+    border-radius: 1000px;
+    background-color: rgb(255, 36, 36);
+}

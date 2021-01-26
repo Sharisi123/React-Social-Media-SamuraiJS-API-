@@ -1,0 +1,6 @@
+.login-form-error {
+    display: inline-block;
+    border: 1px solid red;
+    color: red;
+    padding: 3px;
+}

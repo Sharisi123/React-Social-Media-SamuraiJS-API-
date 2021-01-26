@@ -1,0 +1,6 @@
+.form-add-post input {
+    border: 1px solid red
+}
+.form-add-post span {
+    color: red
+}

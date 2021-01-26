@@ -1,0 +1,12 @@
+.post {
+    margin: 5px;
+}
+
+.post-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.post-body {
+    margin-left: 15px;
+}

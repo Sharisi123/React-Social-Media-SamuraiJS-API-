@@ -1,0 +1,58 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    /* grid-template-rows: 5fr 7fr; */
+    grid-template-areas: 
+        "d m"
+        "d s";
+}
+.dialogs-container {
+    padding: 5px;
+    grid-area: d;
+}
+
+.massages-container {
+    padding: 10px;
+    grid-area: m;
+}
+
+.send-massage-container {
+    grid-area: s;
+    margin-bottom: 0 auto;
+}
+.send-massage-button {
+    display: inline-block;
+    padding: 7px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #999;
+    margin-left: 10px;
+}
+
+.send-massage-button:hover {background-color: #fd7369}
+  
+.send-massage-button:active {
+    background-color: #f44336;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.send-massage-input {
+  color: #333;
+  font-size: 1.2rem;
+  margin: 5px ;
+  padding: 10px;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  width: 70%;
+  display: block;
+  transition: all 0.3s;
+}
